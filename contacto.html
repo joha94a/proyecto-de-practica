@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+, initial-scale=1.0">
+    <title> Contacto </title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+ <nav>
+    <a href="index.html" title="vinculo al incicio"> Inicio </a>
+    <a href="cursos.html" title="vinculo a cursos"> Cursos</a>
+    <a href="contacto.html" title="vinculo a contacto"> Contacto </a>
+ </nav>
+
+    <header>
+    <h1> Contacto </h1>
+
+    <form methode="post" action="" enctype="multipart/form-data">
+            <label> Email
+                <input type="email" requierd placeholder="info@dominio.com" value="" >
+                <br>
+            </label>
+
+            <label> Nombre
+            <input type="text" name="nombre" placeholder="Nombre completo" maxlength="20">
+            </label>
+
+            <label> Edad:
+                <input type="number" requierd min="10" max="90">
+            </label>
+            <br>
+        
+            Sexo Femenino <input type="radio" name="sexo" value="Femenino"> Masculino <input type="radio" name=sexo value="Masculino">
+            <br>
+            <label> Nacionalidad
+                <select name="nacionalidad">
+                    <option value="argentina"> Argentina</option>
+                    <option value="chile">Chile</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="totoro's world"> Totoro's World</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label>
+            Dónde te gustaría recibir la información? <br>E-mail <input type="checkbox" name="Femenino" value="Femenino"> Whatsapp <input type="checkbox" name=Masculino value="Masculino"> </label>
+            <br>
+            <br>
+            <label> Adjuntar archivo
+                <input type="file" name="archivo" >
+            </label>
+            </form>
+<br>
+            <input type="submit" value="Enviar">
+        </form> 
+        
+<br>
+            <label> Contraseña <br>
+                <input type="password" name="Contraseña" placeholder="Contraseña" maxlength="10">
+                </label>
+        </form>
+<br>
+        <fomr>
+            <label> Comentarios
+                <textarea placeholder="Deja tu comentario"></textarea>
+            </label>
+        </fomr>
+    </main>
+    <footer></footer>
+</body>
+</html>
